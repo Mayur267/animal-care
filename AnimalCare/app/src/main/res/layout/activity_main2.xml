@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/wall">
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="495dp"
+        android:background="@drawable/dog">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginRight="171dp"
+        android:layout_marginBottom="449dp"
+        android:text="DOG"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:textColor="#ffff"/>
+
+    <ScrollView
+        android:layout_width="372dp"
+        android:layout_height="386dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="71dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="461dp"
+            android:textColor="#ffff"
+            android:text="Dog Information:
+                           \n Dogs are domesticated mammals, not natural wild animals. They were originally  bred  from  wolves. They have been bred by humans for a long time, and were the first animals ever to be domesticated. There are different studies that suggest that this happened between 15.000 and 100.000 years before our time. The dingo is also a dog, but many dingos have become wild animals again and live independently of humans in the range where they occur . Today, some dogs are used as pets, others are used to help humans do their work. They are a popular pet because they are usually playful, friendly, loyal and listen to humans. Thirty million dogs in the United States are registered as pets. Dogs eat both meat and vegetables, often mixed together and sold in stores as dog food. Dogs often have jobs, including as police dogs, army dogs, assistance dogs, fire dogs, messenger dogs, hunting dogs, herding dogs, or rescue dogs.
+                          \n\n List of Breeds DOG:\n  Affenpinscher, Bearded Collie, Beagle, Basque Shepherd Dog, Basset Artésien Normand,Ariegeois, American Eskimo Dog, American Bully, American Bulldog, Alpine Dachsbracke, Alaskan Klee Kai, Alano Español, Akita, Akbash, Aidi, Kuchi, Afghan Hound
+\n\n Vaccines for Dog:\n\nRabies 1-year:\nCan be administered in one dose, as early as 3 months of age. States regulate the age at which it is first administered.Single dose,Annual boosters are required,Core dog vaccine. Rabies is 100% fatal to dogs, with no treatment available. Prevention is key
+\n\nDistemper:\nAt least 3 doses, given between 6 and 16 weeks of age.2 doses, given 3-4 weeks apart.Puppies need a booster 1 year after completing their initial series, then all dogs need a booster every 3 years or more often.Core dog vaccine. Caused by an airborne virus, distemper is a severe disease that, among other problems, may cause permanent brain damage.
+\n\nParvovirus:\nAt least 3 doses, given between 6 and 16 weeks of age.2 doses, 3-4 weeks apart.Puppies need a booster 1 year after completing the initial series, then all dogs need a booster every 3 years or more often.Core dog vaccine. Canine porvo is contagious, and can cause severe vomiting and bloody diarrhea. Parvo is usually fatal if untreated.
+\n\nAdenovirus,  type 1 (CAV-1, canine hepatitis):\n At least 3 doses, between 6 and 16 weeks of age.2 doses, 3-4 weeks apart.Puppies need a booster 1 year after completing the initial series, then all dogs need a booster every 3 years or more often.Core dog vaccine. Spread via infected urine and feces; canine hepatitis can lead to severe liver damage, and death.
+\n\nParainfluenza:\nAdministered at 6-8 weeks of age, then every 3-4 weeks until 12-14 weeks old.1 dose.A booster may be necessary after 1 year, depending on manufacturer recommendations; revaccination every 3 years is considered protective.Non-core dog vaccine. Parainfluenza infection (not the same as canine influenza) results in cough, fever. It may be associated with Bordetella infection.
+"
+            android:textStyle="bold" />
+
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="3dp"
+        android:background="#FF5722"
+        android:text="next" />
+
+
+</RelativeLayout>

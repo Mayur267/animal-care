@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "107549760216",
+    "firebase_url": "https://animal-care-24584.firebaseio.com",
+    "project_id": "animal-care-24584",
+    "storage_bucket": "animal-care-24584.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107549760216:android:5133e0b99d737bf75615ad",
+        "android_client_info": {
+          "package_name": "com.example.animalcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107549760216-pvrvlc3js1q9a0nlhg7duo49k7qihk76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdnAL07ItKcSz_vcU7zkcCsGwDwZ98C_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107549760216-pvrvlc3js1q9a0nlhg7duo49k7qihk76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
